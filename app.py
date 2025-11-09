@@ -19,8 +19,6 @@ except Exception as e:
     print(f"Using default configurations. Error loading environment variables: {e}")
 
 # API Key handling: Leave it empty. The Canvas environment will handle the injection.
-# API_KEY = "AIzaSyBwWh5p52Kv6o4KLbHdrG0KbSwsk8CxnFM"
-# API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent"
 
 try:
     API_KEY = st.secrets["API_KEY"]
